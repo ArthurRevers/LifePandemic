@@ -1,0 +1,282 @@
+/* responsividade do site nas margens*/
+*{padding:0px; margin:0px;}
+#centro{
+	width:100%; 
+	height:100%; 
+	background:#99dccb;
+	margin:0 auto;
+}
+
+#topo{width:100%; height:09%; background:#b3dfd4;}
+
+@media screen and(min-width:320px) and (max-width:568px)
+
+{
+	#centro{width:100%;}
+	#topo{background:#ff0;}
+	#topo h1{color:#ff0;}
+}
+
+*
+{
+    -wibkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+
+/* regras de espaçamento e responsividade */
+body
+{
+    height:px;
+}
+
+container
+{
+    margin:auto;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+
+/* começo da navbar */
+
+nav
+{
+    background-color: #37b3e2;  
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 5px solid #f8be18;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+li 
+{
+    display: inline-block;
+    float:left;
+    padding:10px;
+    font-size:18px; 
+}
+
+a
+{
+    color:#FFF;
+    text-decoration:none;
+    font-weight:bold;
+	font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+}
+
+a:hover
+{
+    color:#e4e6e7;  
+}
+
+/* logo na navbar */
+#logo
+{
+    margin:05px 0 20px 40px;
+    font-size:30px;
+    cursor:pointer;
+    color:#e4e6e7;
+    float:left;
+    height:40px;
+    display:block;
+}
+
+#logo:hover
+{
+    text-decoration:none;
+    color:#FFF;
+}
+
+.links
+{
+    float:right;
+    padding:18px;
+}
+
+a .image
+{
+    display:none;
+}
+
+#menu-icon
+{
+    display:hidden;
+    width:32px;
+    height:32px;
+}
+
+@media (max-width: 767px)
+   
+{
+#menu-icon
+{
+        display:inline-block;
+}
+.links
+{
+    padding:20px 10px;
+}    
+    
+.links ul 
+{
+        
+    display:none;
+    position:absolute;
+    padding:10px;
+    background-color: #2d9dc7;
+    top:76px;
+    right:10px;
+    width:30%;
+
+        
+}
+    
+.links:hover ul
+{
+    display:block;
+        
+}
+    
+.links li    
+{
+    text-align:center;
+    width:100%;
+    padding:15px 0;
+    margin:0;
+}
+    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  max-width: 1146px;
+  padding: 20px 20px 40px;
+  margin: 0 auto;
+}
+
+
+/* rodapé responsivo*/
+footer {
+  color: #fff;
+  background: #31b695;
+  posittion: fixed;
+  bottom: 0px;
+  padding: 17px 0 18px 0;
+  border-top: 0px solid #2c93b9;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #23826a;
+}
+
+
+@media (max-width: 767px) {
+
+  footer  {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.container1 {
+  max-width: 940px;
+}
+
+/* logo roda pé */
+.logoroda{
+	width: 20%;
+}
+
+/* responsividade das imagens */
+img{
+	max-width:100%;
+	height:auto;
+}
+.fundo1{
+	border-bottom: 5px solid #f8be18;
+	background:#2d9dc7;
+	height:320px;
+	width:px;
+	display:block;
+}
+.fundo2{
+	background:#7dd1ca;
+	height:520px;
+	width:px;
+	display:block;
+}
+
+.pq{
+	width: 10%;
+}
+.pq2{
+	width: 27%;
+}
+
+.covid{
+	background:#6ec0ab;
+	width:px;
+	display:block;
+}
+
+/*botões com aletar para o covid responsivo*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.cln-button {
+  display: inline-block;
+	border: none;
+  outline: none;
+  padding: 10px 10px;
+	margin: 2px 2px;
+	font-family: 'Open Sans', sans-serif;
+  text-shadow: 10 2px #207E85;
+	color: #fff;
+	letter-spacing: 2px;
+  position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cloner-button {
+	background: #2284a8;
+	color: #fff;
+	box-shadow: 0 6px #1e7392;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* Button Animate */
+.clnr-btn {border-radius: 10px;}
+.clnr-btn:hover {box-shadow: 0 4px #207E85; top: 2px;}
+.clnr-btn:active {box-shadow: 0 0 #207E85; top: 6px;}
+
+
+
+
+
+
+
